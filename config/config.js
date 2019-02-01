@@ -8,6 +8,7 @@ exports.proxy = {
 exports.webpack = {
   externals: {
     vue: 'Vue',
-    VueRouter: 'vue-router',
-	},
+    'vue-router': 'VueRouter',
+    vuex: 'Vuex',
+  },
 };
