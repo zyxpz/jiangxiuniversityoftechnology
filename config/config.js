@@ -3,3 +3,11 @@ exports.proxy = {
     targey: 'http://localhost',
   },
 };
+
+
+exports.webpack = {
+  externals: {
+    vue: 'Vue',
+    VueRouter: 'vue-router',
+	},
+};
