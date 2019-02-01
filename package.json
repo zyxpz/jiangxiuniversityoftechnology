@@ -20,7 +20,7 @@
     "pre": "mido dev mock=pre",
     "build": "mido build",
     "lint": "eslint --ext .jsx,.js,.vue ./src",
-    "eslint-fix": "npm run lint --fix",
+    "lint:fix": "npm run lint -- --fix",
     "lint-staged": "lint-staged"
   },
   "license": "ISC",
