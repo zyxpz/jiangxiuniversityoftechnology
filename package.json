@@ -1,0 +1,27 @@
+{
+  "name": "jiangxiuniversityoftechnology",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Midnight Blues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zyxpz/jiangxiuniversityoftechnology"
+  },
+  "bugs": {
+    "url": "https://github.com/zyxpz/jiangxiuniversityoftechnology/issues"
+  },
+  "entry": {
+    "index": "./src/index.js"
+  },
+  "scripts": {
+    "dev": "mido dev mock=dev -p 9001",
+    "test": "mido dev mock=test",
+    "pre": "mido dev mock=pre",
+    "build": "mido build"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "mido-construct": "^1.1.3-beta7"
+  }
+}
