@@ -1,2 +1,2 @@
-import './template/index.html';
-import './pages/index';
+import './entry/index.html';
+import './entry/index';
