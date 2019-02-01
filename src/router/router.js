@@ -1,15 +1,12 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-
-import Page1 from '../pages/page1';
-import Page2 from '../pages/page2';
+import Index from '../pages/Index/Index';
 
 Vue.use(VueRouter);
 
 const routes = [
-  { path: '/page1', component: Page1 },
-  { path: '/page2', component: Page2 },
-  { path: '/', redirect: '/page1' },
+  { path: '/index', component: Index },
+  { path: '/', redirect: '/index' },
 
 ];
 const router = new VueRouter({
