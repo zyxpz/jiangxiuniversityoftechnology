@@ -2,6 +2,16 @@ exports.proxy = {
   dev: {
     targey: 'http://localhost',
   },
+  test: {
+    '/ow': {
+      target: 'http://test.open.sosho.cn',
+    },
+  },
+  pre: {
+    '/ow': {
+      target: 'http://open.sosho.cn',
+    },
+  },
 };
 
 
