@@ -12,3 +12,16 @@ exports.webpack = {
     vuex: 'Vuex',
   },
 };
+
+exports.babel = {
+  plugins: [
+    [
+      'import',
+      {
+        libraryName: 'ant-design-vue',
+        libraryDirectory: 'lib',
+        style: 'css',
+      },
+    ],
+  ],
+};
