@@ -15,6 +15,7 @@
 <script>
 import { mapState, mapActions } from 'vuex';
 import { Select, Icon } from 'ant-design-vue';
+import fetch from '../../../util/fetch';
 
 export default {
   name: 'Fouter',
@@ -37,7 +38,21 @@ export default {
     },
   },
   created() {
-    this.getData;
+    fetch({
+      url: '/ow/ow/contents',
+      data: {
+        com_id: 617,
+      },
+    })
+      .then((d = {}) => {
+        console.log(d);
+        const { data = {} } = d;
+        const { items = [] } = data;
+        console.log(items);
+      })
+      .catch((e) => {
+        console.log(e);
+      });
   },
 };
 </script>
