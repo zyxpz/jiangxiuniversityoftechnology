@@ -55,7 +55,7 @@ const links = {
         title: '感恩和汇聚，我们不忘初心',
         img_path: '',
         intro: '2007年我们开始了校友会&amp;教育基金会的探索...结合大数据和互联网+，秉持着帮助校友会和教育基金会蓬勃发展的初心，我们不断尝试。用技术和平台汇聚校友，报以真诚和感恩、智慧和挑战，我们在不断前行',
-        redirect_url: 'http://www.baidu.com',
+        redirect_url: 'http://www.alipay.com',
         hits_num: 0,
         comment_num: 0,
         is_draft: false,

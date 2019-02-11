@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import Header from '../../component/Header/index';
-import Footer from '../../component/Footer/index';
+import Header from '../../component/common/Header/index';
+import Footer from '../../component/common/Footer/index';
 
 export default {
   data() {

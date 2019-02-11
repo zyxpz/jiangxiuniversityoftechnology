@@ -4,12 +4,12 @@ exports.proxy = {
   },
   test: {
     '/ow': {
-      target: 'http://test.open.sosho.cn',
+      target: 'http://test.open.sosho.cn/ow',
     },
   },
   pre: {
     '/ow': {
-      target: 'http://open.sosho.cn',
+      target: 'http://open.sosho.cn/ow',
     },
   },
 };
