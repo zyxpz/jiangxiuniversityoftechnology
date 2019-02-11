@@ -1,6 +1,9 @@
 <template>
   <div class="wrap">
     <Header/>
+    <div>
+      
+    </div>
     <Footer/>
   </div>
 </template>
